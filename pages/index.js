@@ -171,6 +171,11 @@ export default function Home() {
           Made by <a href="https://www.twitter.com/saketcodes">Saket Tawde</a>
         </span>
       </div>
+      <div>
+        <span>
+          Code for the project can be found <a href="https://github.com/sakettawde/perspective-test">here</a>
+        </span>
+      </div>
     </>
   )
 }
