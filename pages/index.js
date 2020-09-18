@@ -83,7 +83,7 @@ export default function Home() {
       </Head>
 
       <h1>
-        Welcome to <span style={{ color: "#0070f3" }}>AI Lab&nbsp;</span><span style={{fontSize:14}}>(Ahem... fake name)</span>
+        Welcome to <span style={{ color: "#0070f3" }}>AI Lab&nbsp;</span><br/><span style={{fontSize:14}}>(Ahem... fake name)</span>
       </h1>
       <hr />
       <p>This is a playground for the Perspective API (Link in the footer). It has been developed to gauge the toxicity of a comment in a discussion forum or on a social platform online. Take it for a spin and see how it works.
