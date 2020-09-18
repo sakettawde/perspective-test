@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Testing the Perspective API
 
-The Perspective API is a cool ew way to build collectively safer and friendlier communities by returning parameters to rate comments or disussion threads as TOXIC, THREATENING or INSULTING. This project is a playground to test that API.
+The Perspective API is a cool new way to build collectively safer and friendlier communities by returning parameters to rate comments or disussion threads such as TOXIC, THREATENING or INSULTING. This project is a playground to test that API.
 
 ## Duplicate the project
 
