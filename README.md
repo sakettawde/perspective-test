@@ -1,30 +1,19 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Testing the Perspective API
 
-First, run the development server:
+The Perspective API is a cool new way to build collectively safer and friendlier communities by returning parameters to rate comments or disussion threads such as TOXIC, THREATENING or INSULTING. This project is a playground to test that API.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Duplicate the project
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+You may easily duplicate the project by creating your own API key and storing it in a .env file under the title 'PERSPECTIVE_API_KEY'
+To create an API key for the Perspective project, head [here](https://github.com/conversationai/perspectiveapi/blob/master/1-get-started/README.md)
+THen follow the deployment instructions below
 
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Do not forget to declare your environment variables in your Vercel project deployment settings.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
