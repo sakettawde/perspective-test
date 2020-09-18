@@ -86,7 +86,8 @@ export default function Home() {
         Welcome to <span style={{ color: "#0070f3" }}>AI Lab&nbsp;</span><span style={{fontSize:14}}>(Ahem... fake name)</span>
       </h1>
       <hr />
-      <p>Get started by adding a comment and clicking the button</p>
+      <p>This is a playground for the Perspective API (Link in the footer). It has been developed to gauge the toxicity of a comment in a discussion forum or on a social platform online. Take it for a spin and see how it works.
+      <br/>Get started by adding a some text in the text input area below and clicking the "See what the AI thinks" button</p>
       <hr />
       <h3>Input Text</h3>
       <textarea value={text} onChange={textHandler}></textarea>
@@ -94,7 +95,7 @@ export default function Home() {
         onClick={askPerspective}
         style={{ backgroundColor: "#0070f3", color: "#fff" }}
       >
-        See what the AI thinks?
+        See what the AI thinks
       </button>
       <hr />
       <div>
